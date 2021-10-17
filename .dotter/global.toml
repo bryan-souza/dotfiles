@@ -1,0 +1,15 @@
+[helpers]
+
+[default]
+depends = []
+
+[default.files]
+alacritty = "~/.config/alacritty/alacritty.yml"
+coc-settings = "~/.config/nvim/coc-settings.json"
+condarc = "~/.condarc"
+neofetch = "~/.config/neofetch/config.conf"
+neovim = "~/.config/nvim/init.vim"
+tmux = "~/.tmux.conf"
+zshrc = "~/.zshrc"
+
+[default.variables]
