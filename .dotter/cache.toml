@@ -2,7 +2,7 @@
 alacritty = "/home/bryan/.config/alacritty/alacritty.yml"
 coc-settings = "/home/bryan/.config/nvim/coc-settings.json"
 condarc = "/home/bryan/.condarc"
-neofetch = "/home/bryan/.config/neofetch/config.conf"
+fastfetch = "/home/bryan/.config/fastfetch/config.conf"
 neovim = "/home/bryan/.config/nvim/init.vim"
 tmux = "/home/bryan/.tmux.conf"
 zshrc = "/home/bryan/.zshrc"
