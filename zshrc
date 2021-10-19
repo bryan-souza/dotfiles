@@ -126,3 +126,7 @@ fi
 unset __conda_setup
 export PATH="/home/bryan/.anaconda3/envs/fabaceae/bin":$PATH
 # <<< conda initialize <<<
+
+# Export other paths
+export DOTFILES="/home/bryan/.dotfiles"
+export DOOMDIR="/home/bryan/Games/doom"
