@@ -11,9 +11,11 @@ set number
 " Load plugins
 call plug#begin('~/.local/share/nvim/plugged')
 
-" Plug 'lotabout/skim', { 'dir': '~/.skim', 'do': './install' }
+Plug 'lotabout/skim', { 'dir': '~/.skim', 'do': './install' }
 Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && yarn install'  }
 
+Plug 'tpope/vim-fugitive' " Git wrapper
 Plug 'tmux-plugins/vim-tmux' " TMUX .conf syntax support
 Plug 'nvim-lua/plenary.nvim' 
 Plug 'nvim-telescope/telescope.nvim'
